@@ -28,11 +28,12 @@ Gesture-Based System Controls
   Pinch Gesture (Thumb + Index touching)	              Click (Mouse Click & Double Click)
   Exit Gesture (Index, Middle, and Ring up, rest down)	Closes the program
 
-System Volume Control (Using PyCAW)
+System Volume Control (Using PyCAW) :
   Adjusts system volume based on the distance between thumb and index finger.
   Uses Exponential Moving Average (EMA) for smoother volume transitions.
   Exits volume mode when the pinky finger is raised.
-Cursor Control & Clicks (Using PyAutoGUI)
+  
+Cursor Control & Clicks (Using PyAutoGUI) :
   Moves the mouse based on hand movement.
   Uses the middle finger position to move the cursor.
   Detects pinch gestures for clicking.
